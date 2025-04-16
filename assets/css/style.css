@@ -13,6 +13,11 @@
     --light-highlight: #7a9fc2;
 }
 
+/*Global styles*/
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 body {
     font-family: var(--primary-font);
 }
@@ -22,6 +27,7 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-colour);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
@@ -36,6 +42,12 @@ h3 {
 #navbar .logo {
   width: 30px;  
 }
+
+/*Header */
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
 /*Grid visualisation CSS for testing*/
 /*
 .container,.row {
