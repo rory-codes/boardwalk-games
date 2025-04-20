@@ -63,6 +63,7 @@ h2 {
 .custom-button-outline:hover {
     background-color: var(--highlight-color);
     color: white;
+}
 /* Navbar */
 
 #navbar {
@@ -129,6 +130,19 @@ h2 {
 
 #contact .table-dark * {
     background-color: transparent;
+}
+
+#events, table {
+    color: #3a2620;
+}
+
+#events, h3, p {
+    color: var(--primary-color);
+}
+
+#student {
+    background-color: var(--highlight-color);
+    color: white;
 }
 /* grid visualisation CSS for testing */
 /*
