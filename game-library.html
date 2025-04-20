@@ -222,8 +222,8 @@
                 </div>
             </div>
         </section>
-
-            <section id="reserve-game" class="container section">
+<!--Game Selection section-->
+        <section id="reserve-game" class="container section">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8">
                         <h2>Reserve a game</h2>
@@ -243,8 +243,8 @@
                                     <input class="form-control" id="email" name="email" type="email" required>
                                 </div>
                                 <div class="col-12 col-lg-8 mb-3">
-                                    <label for="event-type" class="form-label">Select game</label>
-                                    <select id="event-type" class="form-select" name="event-type" required>
+                                    <label for="game-select" class="form-label">Select game</label>
+                                    <select id="game-select" class="form-select" name="game-select" required>
                                         <option value="" selected>Select game</option>
                                         <option value="galaxy-pioneers">Galaxy Pioneers</option>
                                         <option value="mystic-woods">Mystic Woods</option>
@@ -258,7 +258,7 @@
                                 </div>
                                 <div class="col-12 col-lg-4 mb-3">
                                     <label for="date" class="form-label">Requested date</label><br>
-                                    <input type="date" id="date" name="date" required>
+                                    <input id="date" class="form-select" type="date" name="date" required>
                                 </div>
                                 <div>
                                     <button type="submit" class="btn custom-button-outline">Submit</button>
@@ -267,7 +267,7 @@
                         </form>
                     </div>
                 </div>
-            </section>
+        </section>
     </main>
 
     <!--Footer/contact section-->
