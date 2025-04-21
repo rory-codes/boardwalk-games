@@ -1,4 +1,3 @@
-
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
@@ -121,6 +120,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.5rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -144,18 +145,6 @@ h2 {
     background-color: var(--highlight-color);
     color: white;
 }
-/* grid visualisation CSS for testing */
-/*
- .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
-
 /*Media queries*/
 
 /*Medium devices (tablets, 768px and up) */
